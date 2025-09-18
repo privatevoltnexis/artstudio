@@ -2,8 +2,16 @@
 function detectVideoFolders() {
     // Update this if you add/remove folders or videos
     const folderMap = {
-        1: ["1.webm"],
-        2: ["1.webm"],
+        1: ["1.mp4"],
+        2: ["1.mp4"],
+        3: ["1.mp4"],
+        4: ["1.mp4"],
+        5: ["1.mp4"],
+        6: ["1.mp4"],
+        7: ["1.mp4"],
+        8: ["1.mp4"],
+        9: ["1.mp4"],
+        10: ["1.mp4"]
         // Add more folders/videos as needed, using just the number (e.g., "1.webm", "2.webm")
     };
     const folders = Object.keys(folderMap).map(num => ({ folder: Number(num), videos: folderMap[num] }));
